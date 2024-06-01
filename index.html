@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum.Nets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo" id="logo">Forum.Nets</div>
+        <h1>Hola bienvenid@ a Forums</h1>
+    </header>
+    <main>
+        <section class="post-section">
+            <h2>Publicar una Nota</h2>
+            <form id="postForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="content">Pon Tu Texto ^^:</label>
+                <textarea id="Pon Tu Texto ^^t" name="Pon Tu Texto ^^" required></textarea>
+                <label for="image">Subir Foto:</label>
+                <input type="file" id="image" name="image" accept="image/*">
+                <button type="submit">Postear</button>
+            </form>
+        </section>
+        <section class="notes-section">
+            <h2>Notas Publicadas</h2>
+            <div id="notes"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
 
